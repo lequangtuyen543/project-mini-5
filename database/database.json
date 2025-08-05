@@ -1,0 +1,524 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Alice Nguyen",
+      "email": "alice.nguyen@example.com",
+      "password": "1",
+      "token": "token_1a2b3c"
+    },
+    {
+      "id": "2",
+      "fullName": "Bob Tran",
+      "email": "bob.tran@example.com",
+      "password": "hashed_password_2",
+      "token": "token_4d5e6f"
+    },
+    {
+      "id": "3",
+      "fullName": "Charlie Pham",
+      "email": "charlie.pham@example.com",
+      "password": "hashed_password_3",
+      "token": "token_7g8h9i"
+    },
+    {
+      "id": "4",
+      "fullName": "David Le",
+      "email": "david.le@example.com",
+      "password": "hashed_password_4",
+      "token": "token_j1k2l3"
+    },
+    {
+      "id": "5",
+      "fullName": "Emma Hoang",
+      "email": "emma.hoang@example.com",
+      "password": "hashed_password_5",
+      "token": "token_m4n5o6"
+    },
+    {
+      "id": "6",
+      "fullName": "Frank Vu",
+      "email": "frank.vu@example.com",
+      "password": "hashed_password_6",
+      "token": "token_p7q8r9"
+    },
+    {
+      "id": "7",
+      "fullName": "Grace Bui",
+      "email": "grace.bui@example.com",
+      "password": "hashed_password_7",
+      "token": "token_s1t2u3"
+    },
+    {
+      "id": "8",
+      "fullName": "Henry Do",
+      "email": "henry.do@example.com",
+      "password": "hashed_password_8",
+      "token": "token_v4w5x6"
+    },
+    {
+      "id": "9",
+      "fullName": "Isabella Phan",
+      "email": "isabella.phan@example.com",
+      "password": "hashed_password_9",
+      "token": "token_y7z8a9"
+    },
+    {
+      "id": "10",
+      "fullName": "Jackie Nguyen",
+      "email": "jackie.nguyen@example.com",
+      "password": "hashed_password_10",
+      "token": "token_b1c2d3"
+    },
+    {
+      "id": "4d4a",
+      "fullName": "tuyen",
+      "email": "tuyen@gmail.com",
+      "password": "1",
+      "token": "U4vdsxke0Nq8waPt9Bq787TpFHs3bzvg"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML"
+    },
+    {
+      "id": "2",
+      "name": "CSS"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "What is 2 + 2?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "2",
+      "topicId": 2,
+      "question": "What planet is known as the Red Planet?",
+      "answers": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 3,
+      "question": "Who was the first president of the United States?",
+      "answers": [
+        "George Washington",
+        "Abraham Lincoln",
+        "John Adams",
+        "Thomas Jefferson"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "4",
+      "topicId": 1,
+      "question": "What is the square root of 9?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "5",
+      "topicId": 2,
+      "question": "What gas do plants absorb from the atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "6",
+      "topicId": 4,
+      "question": "Which is the largest continent?",
+      "answers": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Australia"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "7",
+      "topicId": 3,
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answers": [
+        "Mark Twain",
+        "Charles Dickens",
+        "William Shakespeare",
+        "J.K. Rowling"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "8",
+      "topicId": 1,
+      "question": "What is 7 x 8?",
+      "answers": [
+        "54",
+        "56",
+        "58",
+        "60"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "9",
+      "topicId": 2,
+      "question": "What is H2O commonly known as?",
+      "answers": [
+        "Oxygen",
+        "Hydrogen",
+        "Water",
+        "Salt"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "10",
+      "topicId": 3,
+      "question": "In which year did World War II end?",
+      "answers": [
+        "1942",
+        "1945",
+        "1948",
+        "1950"
+      ],
+      "correctAnswer": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "1",
+      "userId": "1",
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 5,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "userId": "6",
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 6,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userId": "7",
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 7,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userId": "8",
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 8,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "userId": "9",
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 9,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "userId": "10",
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "2fb2",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "74a0",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e560",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "e8ce",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "ca48",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "418e",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "e818",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 4,
+          "answer": 2
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "1565",
+      "userId": 4,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 0
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "38ea",
+      "userId": 4,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 5,
+          "answer": 2
+        },
+        {
+          "questionId": 9,
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}
