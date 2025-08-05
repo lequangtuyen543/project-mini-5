@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "json-server --port 3000 --watch database.json",
+    "start": "json-server --port $PORT --watch database.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
