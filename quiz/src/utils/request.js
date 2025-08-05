@@ -1,4 +1,5 @@
-const api_domain = "http://localhost:3002/";
+// const api_domain = "http://localhost:3002/";
+const api_domain = `${process.env.REACT_APP_API_URL}`;
 
 export const GET = async (path) => {
   const response = await fetch(api_domain + path)
